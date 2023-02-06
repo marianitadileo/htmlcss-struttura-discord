@@ -21,9 +21,10 @@ header {
     justify-content: space-between;
     width: 60%;
     margin: auto;
+    align-items: center;
     /* DEBUG */
     background-color: #DAA520;
-    align-items: center; 
+     
 }
 
 ul {
@@ -49,6 +50,7 @@ li {
 .section-1 {
     display: flex;
     height: 350px;
+    /* DEBUG */
     background-color: #00008B;
 }
 
@@ -79,7 +81,7 @@ li {
     height: 100%;
     width: 70%;
     /* DEBUG */
-    background-color: aquamarine;
+    background-color: lightskyblue;
     border-style: dashed;
 
 }
@@ -93,5 +95,23 @@ li {
 }
 
 .bc-grey {
+    /* DEBUG */
     background-color: lightgray;
+}
+
+.big-section {
+    height: 600px;
+    display: flex;
+    /* DEBUG */
+    background-color: lightgrey;
+}
+
+.big-container {
+    height: 550px;
+    width: 70%;
+    margin: auto;
+
+    /* DEBUG */
+    background-color: green;
+    border-style: dashed;
 }
