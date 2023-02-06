@@ -28,7 +28,7 @@ header {
 
 ul {
     list-style-type: none;
-    width: 80%;
+    width: 50%;
     text-align: center;
 }
 
@@ -43,4 +43,55 @@ li {
 
 .left {
     text-align: right;
+}
+
+/* MAIN  */
+.section-1 {
+    display: flex;
+    height: 350px;
+    background-color: #00008B;
+}
+
+.pink {
+    height: 280px;
+    width: 50%;
+    margin: auto;
+    /* DEBUG */
+    background-color: #EE82EE;
+    border-style: dashed;
+
+}
+
+.special-section { 
+    height: 400px;
+    display: flex;
+}
+
+.container {
+    
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.lightblue{
+    height: 100%;
+    width: 70%;
+    /* DEBUG */
+    background-color: aquamarine;
+    border-style: dashed;
+
+}
+
+.rose {
+    height: 100%;
+    width: 50%;
+    /* DEBUG */
+    background-color: pink;
+    border-style: dashed;
+}
+
+.bc-grey {
+    background-color: lightgray;
 }
